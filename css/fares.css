@@ -1,0 +1,93 @@
+.prices .title-small {
+  color: gray;
+}
+
+.fare, .fare-head, .fare-footer {
+  border-radius: 3px;
+}
+
+.fare-head, .fare-footer {
+  background: #e3e3e3;
+  color: gray;
+  padding: 20px 0;
+}
+
+.fare {
+  width: 90%;
+  margin: auto;
+}
+
+.fare-head {
+  border-bottom: 1px solid #ccc;
+}
+
+.fare .fare-price {
+  font-weight: normal;
+}
+
+.fare-features-item-gray {
+  padding-left: 0;
+  margin: 20px 25px 20px -10px;
+}
+
+.fare-features-item-purple {
+  padding-left: 0;
+  margin: 20px 25px 20px -10px;
+}
+
+.fare-features-item-red {
+  padding-left: 0;
+  margin: 20px 25px 20px -10px;
+}
+
+.fare_featured-red {
+  background: #ff4837;
+  border-color: #dc1200;
+}
+
+.fare_featured-red * {
+  color: #fff;
+}
+
+
+.fare-features-footer {
+  padding-left: 0;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.fare_featured-red .fare-footer,
+.fare_featured-red .fare-head {
+  background: #fc7c70;
+  border-color: #9c180f;
+}
+
+.fare_featured-gray {
+  background: #d8d8d8;
+  border-color: #9f93a1;
+}
+
+.fare_featured-gray * {
+  color: #000000;
+}
+
+.fare_featured-gray .fare-footer,
+.fare_featured-gray .fare-head {
+  background: #726E75;
+  border-color: #9f93a1;
+}
+
+.fare_featured-purple {
+  background: #845edc;
+  border-color: #7430dc;
+}
+
+.fare_featured-purple * {
+  color: #fff;
+}
+
+.fare_featured-purple .fare-footer,
+.fare_featured-purple .fare-head {
+  background: #9370fc;
+  border-color: #7430dc;
+}
