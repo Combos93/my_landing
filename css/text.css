@@ -41,7 +41,12 @@
 .article_text {
   font-family: Verdana sans-serif, serif;
   color: #46576C;
+}
+
+.article_text:hover {
   text-decoration: underline;
+  font-family: Verdana sans-serif, serif;
+  color: #46576C;
 }
 
 .text-decor {
@@ -55,5 +60,5 @@
 
 .graphic {
   display: inline-block;
-  width: 500px;
+  width: 800px;
 }

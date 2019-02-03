@@ -13,7 +13,7 @@
 }
 
 .fare {
-  width: 90%;
+  width: 75%;
   margin: auto;
 }
 
@@ -47,13 +47,17 @@
 
 .fare_featured-red * {
   color: #fff;
+  list-style-type: none;
 }
-
 
 .fare-features-footer {
   padding-left: 0;
   margin-bottom: 5px;
   font-size: 18px;
+}
+
+fare_featured-red {
+  background: #FF5E46;
 }
 
 .fare_featured-red .fare-footer,
@@ -63,12 +67,13 @@
 }
 
 .fare_featured-gray {
-  background: #d8d8d8;
+  background: #e2e2e3;
   border-color: #9f93a1;
 }
 
 .fare_featured-gray * {
   color: #000000;
+  list-style-type: none;
 }
 
 .fare_featured-gray .fare-footer,
@@ -84,6 +89,7 @@
 
 .fare_featured-purple * {
   color: #fff;
+  list-style-type: none;
 }
 
 .fare_featured-purple .fare-footer,

@@ -13,12 +13,33 @@
   color: #fff;
 }
 
+.button-gray:hover {
+  background: #77707c;
+  transition: all ease .3s;
+  border: 1px solid black;
+  color: #fff;
+}
+
 .button-purple {
   background: #4d3b8c;
   color: #fff;
 }
 
+.button-purple:hover {
+  background: #674eba;
+  transition: all ease .3s;
+  border: 1px solid #ffffff;
+  color: #fff;
+}
+
 .button-red {
   background: #ff5c50;
+  color: #fff;
+}
+
+.button-red:hover {
+  background: #ff5f5f;
+  transition: all ease .3s;
+  border: 1px solid #ffffff;
   color: #fff;
 }

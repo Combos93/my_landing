@@ -36,7 +36,14 @@
   color: #46576C;
 }
 
-@media (max-width: 640px) {
+.header-nav-link:hover {
+  transition: all ease .3s;
+  color: #000000;
+  font-size: 17px;
+
+}
+
+@media (max-width: 960px) {
   .header-company {
     position: inherit;
     width: auto;
@@ -46,7 +53,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .header {
     position: inherit;
     width: auto;

@@ -12,6 +12,12 @@
   <link rel="stylesheet" href="css/footer.css">
 
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+  <script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="parallax.js-1.5.0/parallax.js"></script>
+
+  <script type="text/javascript" charset="UTF-8" src="fares.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="header.js"></script>
 </head>
 
 <body class="Site">
@@ -32,9 +38,6 @@
             <a href="#fares" class="header-nav-link">Тарифы</a>
           </li>
           <li class="header-nav-item">
-            <a href="#prices" class="header-nav-link">Документы</a>
-          </li>
-          <li class="header-nav-item">
             <a href="#buy" class="header-nav-link">Оформить путёвку</a>
           </li>
         </ul>
@@ -42,19 +45,16 @@
     </div>
   </div>
 
-  <div class="container-info">
+  <div class="container-info" data-parallax="scroll">
     <div class="text-container text-decor" id="intro">
       <p>&nbsp;</p>
       <p>Путешествуете автостопом по галактике?</p>
       <p>Если Вы любите это дело также как и мы, то Вы зашли по адресу!</p>
-      <p>&nbsp;</p>
 
-      <figure>
         <img src="assets/polet_k_venere.jpg" alt="Полёт к Венере" class="graphic">
-        <figcaption class="article_text">Ваша личная ракета</figcaption>
-      </figure>
+        <div class="article_text click">Ваша личная ракета</div>
 
-      <p>Не упустите свой уникальный шанс совершить путешествие на Венеру.</p>
+      <p class="hide_this">Не упустите свой уникальный шанс совершить путешествие на Венеру.</p>
       <p>&nbsp;</p>
     </div>
   </div>

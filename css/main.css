@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #607891;
+  background: #90b4da;
   text-decoration: none;
 }
 
@@ -27,14 +27,14 @@ html, body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  margin-bottom: 640px;
+  margin-bottom: 750px;
 }
 
 .Site-content {
   flex: 1;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .footer {
     position: inherit;
     width: auto;
