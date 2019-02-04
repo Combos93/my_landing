@@ -1,0 +1,20 @@
+.intro {
+  background-color: rgba(28, 28, 28, 0.4);
+  background-image: linear-gradient(rgba(221,48,79,0), rgba(203,55,93,0.3) 95%);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: yellow;
+  padding: 350px;
+  margin-top: 76px;
+
+}
+
+.intro .text-lead {
+  color: yellow;
+  max-width: 90%;
+  margin: 0 15%;
+}

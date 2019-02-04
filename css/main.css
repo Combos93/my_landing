@@ -3,7 +3,6 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #90b4da;
   text-decoration: none;
 }
 
@@ -27,7 +26,12 @@ html, body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  margin-bottom: 750px;
+  margin-bottom: 1600px;
+}
+
+.buffer-both {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .Site-content {

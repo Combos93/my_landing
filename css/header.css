@@ -18,6 +18,13 @@
   height: 36px;
 }
 
+.header-logo {
+  float: left;
+  display: inline;
+  width: 200px;
+  margin: 5px 5px;
+}
+
 .header-nav {
   float: right;
   vertical-align: baseline;
@@ -27,7 +34,7 @@
 .header-nav-item {
   list-style: none;
   padding: 0 20px;
-  margin: 0;
+  margin-top: 15px;
   display: inline-block;
 }
 
